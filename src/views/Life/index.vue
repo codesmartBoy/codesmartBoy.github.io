@@ -11,7 +11,6 @@
         side="left"
         icon="looks_one"
       >
-        <div>成为一名前端开发，学习Vue</div>
       </q-timeline-entry>
       <q-timeline-entry
         title="Event Title"
@@ -99,6 +98,7 @@ export default {
 };
 </script>
 <style lang="stylus" scoped>
-/deep/ .q-field--outlined .q-field__control
- padding 0 0 0 12px
+/deep/ .q-field--outlined .q-field__control {
+  padding: 0 0 0 12px;
+}
 </style>
