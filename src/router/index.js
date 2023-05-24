@@ -49,13 +49,13 @@ const routes = [
           title: "时间线",
         },
       },
-      {
-        path: "echart",
-        component: () => import("@/views/echart"),
-        meta: {
-          title: "笔记",
-        },
-      },
+      // {
+      //   path: "echart",
+      //   component: () => import("@/views/echart"),
+      //   meta: {
+      //     title: "笔记",
+      //   },
+      // },
       {
         path: "book",
         component: () => import("@/views/book"),
